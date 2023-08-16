@@ -14,26 +14,22 @@
 ----------------------------------------------------------------------------*/
 // Created: 8/15/2023                                                        |
 // Last Modified: 8/15/2023                                                  |
-//----------------------------------------------------------------------------
-
-// TODO: Imagine different Spoots. They will relate to
-//       each other through their shared attribues of
-//       their superclasses. They will also be unique
-//       in their own ways and how they may interpret
-//       their superclasses' attributes.
-
-// Idea 1: Essence Spoot (Abstract class???)
-//         Essence Spoots are the most basic Spoots.
-//         They are like ghosts or phantoms. These
-//         Spoots may rank higher on the hierarchy
-//         than other Spoots because they are mostly
-//         the soul of a Spoot and they have
-//         transcended the physical realm.
-
-
+//---------------------------------------------------------------------------|
 public class Spoot {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+    //----------------------------Class-Variables------------------------------
+    private String name;
+    private String color; // console corresponds to color
+    private int age;
+    //--------------------------Argument-Constructor--------------------------
+    public Spoot(String name, String color, int age) {
+        this.name = name;
+        this.color = color;
+        this.age = age;
+    }
+    //--------------------------Default-Constructor--------------------------
+    Spoot() {
+        this.name = "Spoot";
+        this.color = "white";
+        this.age = 1;
     }
 }
-
