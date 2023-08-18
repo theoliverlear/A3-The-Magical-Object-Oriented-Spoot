@@ -56,7 +56,7 @@ public class GovernmentSpoot extends Spoot {
         // name. It takes a Spoot and name as an argument. The user is
         // informed of the change in name and which department altered their
         // records. Then the Spoot name is changed with a setter method.
-        System.out.println("Filing new name for " + spoot.getName() + " to" +
+        System.out.println("Filing new name for " + spoot.getName() + " to " +
                            newName + " in the " + this.department + ".");
         spoot.setName(newName);
     }
