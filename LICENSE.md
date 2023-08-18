@@ -24,7 +24,7 @@
 | 4. Documentation.                                                          |
 ----------------------------------------------------------------------------->
 # 📜 MIT License 📜
-_Generated legalese from_ https://choosealicense.com/
+_Generated legalese from_ [Choose a License](https://choosealicense.com/)
 
 ---
 ## Copyright © 2023 Oliver Lear Sigwarth 
