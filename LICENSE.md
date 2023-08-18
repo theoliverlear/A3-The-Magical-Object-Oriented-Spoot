@@ -24,7 +24,8 @@
 | 4. Documentation.                                                          |
 ----------------------------------------------------------------------------->
 # 📜 MIT License 📜
-_Generated legalese from_ [Choose a License](https://choosealicense.com/)
+_Generated legalese from_ 🔗 [Choose a License](https://choosealicense.com/)
+site or sourced from the 🔗 [official template](https://mit-license.org/).
 
 ---
 ## Copyright © 2023 Oliver Lear Sigwarth 
@@ -45,3 +46,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.**
+---
