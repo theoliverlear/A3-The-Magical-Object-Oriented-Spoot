@@ -1,7 +1,7 @@
 // Oliver Sigwarth                                                           |
 // Computer Programming (CIDS 162)                                           |
 // Assignment 3 - The Magical Object Oriented Spoot                          |
-// Program: Spoot.java                                                       |
+// Program: SpootEssence.java                                                |
 // Description:                                                              |
 /*---------------------------------------------------------------------------|
 | In this assignment, you will create a Java program to explore the concepts |
@@ -20,20 +20,24 @@ public abstract class SpootEssence {
     private String name;
     private String color; // TODO: Console corresponds to color
     private int age;
+    private int weight;
     //--------------------------Argument-Constructor--------------------------
-    public SpootEssence(String name, String color, int age) {
+    public SpootEssence(String name, String color, int age, int weight) {
         this.name = name;
         this.color = color;
         this.age = age;
+        this.weight = weight;
     }
     //--------------------------Default-Constructor--------------------------
     SpootEssence() {
         this.name = "Spoot";
         this.color = "white";
         this.age = 1;
+        this.weight = 1;
     }
     //-------------------------------Methods----------------------------------
-    public abstract void details();
+    public abstract String details();
+    // public abstract void rollCall();
     //-------------------------------Getters----------------------------------
     public String getName() {
         return this.name;
@@ -44,6 +48,9 @@ public abstract class SpootEssence {
     public int getAge() {
         return this.age;
     }
+    public int getWeight() {
+        return this.weight;
+    }
     //-------------------------------Setters----------------------------------
     public void setName(String name) {
         this.name = name;
@@ -53,5 +60,8 @@ public abstract class SpootEssence {
     }
     public void setAge(int age) {
         this.age = age;
+    }
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 }
