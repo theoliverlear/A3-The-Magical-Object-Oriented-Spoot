@@ -13,23 +13,24 @@
 | concepts by implementing the Spoot class.                                  |
 ----------------------------------------------------------------------------*/
 // Created: 8/15/2023                                                        |
-// Last Modified: 8/15/2023                                                  |
+// Last Modified: 8/17/2023                                                  |
 //---------------------------------------------------------------------------|
-public class Spoot {
-    //----------------------------Class-Variables------------------------------
-    private String name;
-    private String color; // console corresponds to color
-    private int age;
-    //--------------------------Argument-Constructor--------------------------
-    public Spoot(String name, String color, int age) {
-        this.name = name;
-        this.color = color;
-        this.age = age;
+public class Spoot extends SpootEssence {
+    //------------------------Argument-Constructor----------------------------
+    public Spoot(String name, String color, int age, int weight) {
+        super(name, color, age, weight);
     }
-    //--------------------------Default-Constructor--------------------------
+    //------------------------Default-Constructor-----------------------------
     Spoot() {
-        this.name = "Spoot";
-        this.color = "white";
-        this.age = 1;
+        super();
+    }
+    //---------------------------Fetch-Details--------------------------------
+    @Override
+    public String details() {
+        String basePhrase = "My name is %s. I am %d years old. I am a %s" +
+                            " Spoot and I weigh %d lbs. I an ordinary" +
+                            " Spoot!";
+        return String.format(basePhrase, this.getName(), this.getAge(),
+                                         this.getColor(), this.getWeight());
     }
 }
