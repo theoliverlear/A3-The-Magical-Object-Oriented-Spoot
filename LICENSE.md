@@ -1,3 +1,28 @@
+<!----------------------------------------------------------------------------
+| Oliver Sigwarth                                                            |
+| Computer Programming (CIDS 162)                                            |
+| Assignment Three: The Magical Object Oriented Spoot                        |
+| File: LICENSE.md                                                           |
+| Description:                                                               |
+|----------------------------------------------------------------------------|
+| In this assignment, you will create a Java program to explore the concepts |
+| of basic classes, constructors, getters, and setters. Instead of using     |
+| real-world entities, you will design a class hierarchy representing        |
+| imaginary creatures called Spoots. These Spoots will have specific         |
+| attributes such as name, color and age. Your objective is to demonstrate   |
+| your understanding of class design and object-oriented programming         |
+| concepts by implementing the Spoot class.                                  |
+|----------------------------------------------------------------------------|
+| Created: 8/15/2023                                                         |
+| Last Modified: 8/18/2023                                                   |
+----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------
+| 4b. Write a header comment at the beginning of each file, including your   |
+|     name and a brief description of the assignment.                        |
+|----------------------------------------------------------------------------|
+| 4. Documentation.                                                          |
+----------------------------------------------------------------------------->
 # MIT License
 _Generated legalese from_ https://choosealicense.com/
 
