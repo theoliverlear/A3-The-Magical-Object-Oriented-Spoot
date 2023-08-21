@@ -274,10 +274,10 @@ chmod +x run_spoot_factory.sh
 ---
 ## 💻 Running the Program
 
-❎ ***Success***: If you installed the program correctly, the program will 
+✅ ***Success***: If you installed the program correctly, the program will 
 launch and you will be greeted with a welcome message. The program will show
 the contents of its operations and it will be obvious that the program is
-running correctly. ❎
+running correctly. ✅
 
 ❎ ***Failure***: If you did not install the program correctly, you will be
 given an error message. In this case, delete the downloaded content and 
